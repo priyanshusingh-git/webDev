@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Advanced Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Login to Your Account</h2>
+        <form action="submit_login.php" method="POST">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password" name="password" required>
+                    <button type="button" id="togglePassword" class="toggle-password">👁️</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="remember" id="remember">
+                    Remember Me
+                </label>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+        <p class="footer-text">Don't have an account? <a href="register.html">Register here</a>.</p>
+        <p class="footer-text"><a href="forgot_password.html">Forgot Password?</a></p>
+    </div>
+
+    <script>
+        const togglePassword = document.getElementById('togglePassword');
+        const passwordInput = document.getElementById('password');
+
+        togglePassword.addEventListener('click', function () {
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            this.textContent = type === 'password' ? '👁️' : '👁️‍🗨️'; // Change icon based on visibility
+        });
+    </script>
+</body>
+</html>

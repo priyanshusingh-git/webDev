@@ -1,0 +1,47 @@
+/* Reset default browser css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#header img {
+  display: inline-block;
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+#header h1 {
+  display: inline-block;
+  background-color: red;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 12px;
+}
+
+
+a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+a:active {
+  background-color: #4CAF50;
+  color: white;
+}

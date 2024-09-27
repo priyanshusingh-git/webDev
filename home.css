@@ -5,17 +5,20 @@ body {
 }
 
 #header {
-  padding: 20px;
+  padding-left: 10px;
+  text-align: center;
   background-color: #f0f0f0;
 }
 
 #header img {
   display: inline-block;
-  max-width: 100px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 10px;
 }
 
 #header h1 {
+  text-align: center;
   display: inline-block;
   background-color: red;
 }
@@ -27,7 +30,7 @@ body {
   padding: 10px;
 }
 
-a {
+#menu a {
   text-decoration: none;
   color: white;
   text-decoration: none;
@@ -36,12 +39,43 @@ a {
 }
 
 
-a:hover {
+#menu a:hover {
   background-color: #575757;
   border-radius: 4px;
 }
 
-a:active {
+#menu a:active {
   background-color: #4CAF50;
   color: white;
+}
+
+#frame{
+  border: 5px solid black;
+  margin: 50px;
+}
+
+iframe{
+  height: 100%;
+  width: 100%;
+}
+
+#frame1{
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  height: 110vh;
+  width: 25vw;
+  background-color: #4CAF50;
+}
+
+#frame1 a{
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+#frame2{
+  display: inline-block;
+  height: 110vh;
+  width: 65vw;
+  background-color: antiquewhite;
 }

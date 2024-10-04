@@ -33,7 +33,6 @@ body {
 #menu a {
   text-decoration: none;
   color: white;
-  text-decoration: none;
   margin: 0 15px;
   padding: 8px 12px;
 }
@@ -54,9 +53,19 @@ body {
   padding: 30px;
 }
 #frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
   width: 25vw;
   height: 100vh;
   background-color: #4CAF50;
+}
+
+#frame1 a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  padding: 8px 12px;
 }
 
 #frame2 {

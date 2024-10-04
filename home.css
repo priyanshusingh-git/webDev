@@ -9,6 +9,7 @@ body {
   background-color: #f0f0f0;
 }
 
+
 #header img {
   display: inline-block;
   max-width: 100px;
@@ -27,7 +28,7 @@ body {
   padding: 10px;
 }
 
-a {
+#menu a {
   text-decoration: none;
   color: white;
   text-decoration: none;
@@ -36,12 +37,36 @@ a {
 }
 
 
-a:hover {
+#menu a:hover {
   background-color: #575757;
   border-radius: 4px;
 }
 
-a:active {
+#menu a:active {
   background-color: #4CAF50;
   color: white;
+}
+
+#homeFrame{
+  border: 10px solid black;
+}
+
+#branch{
+  display: inline-block;
+  background-color: rgb(233, 147, 43);
+  width: 20vw;
+  height: 80vh;
+}
+
+#branch a{
+  margin-bottom: 50px;
+  line-height: 50px;
+}
+
+
+
+iframe{
+  background-color: bisque;
+  width: 60vw;
+  height: 80vh;
 }

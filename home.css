@@ -5,18 +5,21 @@ body {
 }
 
 #header {
-  padding: 20px;
+  padding-left: 10px;
+  text-align: center;
   background-color: #f0f0f0;
 }
 
 
 #header img {
   display: inline-block;
-  max-width: 100px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 10px;
 }
 
 #header h1 {
+  text-align: center;
   display: inline-block;
   background-color: red;
 }
@@ -45,28 +48,4 @@ body {
 #menu a:active {
   background-color: #4CAF50;
   color: white;
-}
-
-#homeFrame{
-  border: 10px solid black;
-}
-
-#branch{
-  display: inline-block;
-  background-color: rgb(233, 147, 43);
-  width: 20vw;
-  height: 80vh;
-}
-
-#branch a{
-  margin-bottom: 50px;
-  line-height: 50px;
-}
-
-
-
-iframe{
-  background-color: bisque;
-  width: 60vw;
-  height: 80vh;
 }

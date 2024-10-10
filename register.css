@@ -69,23 +69,3 @@ button:hover {
 .footer-text a:hover {
   text-decoration: underline;
 }
-
-/* Responsive Styles */
-@media (max-width: 600px) {
-  .container {
-      padding: 15px;
-      margin: 20px;
-  }
-
-  h2 {
-      font-size: 1.5em;
-  }
-
-  input[type="text"],
-  input[type="email"],
-  input[type="password"],
-  input[type="tel"],
-  button {
-      font-size: 14px;
-  }
-}

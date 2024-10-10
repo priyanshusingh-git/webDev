@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,46 @@
   <link rel="stylesheet" href="home.css">
   <title>Online Book Store</title>
 </head>
+
 <body>
-  <div id="header">
-    <img src="logo.jpg" alt="Logo">
-    <h1>Online Book Store</h1>      
-  </div>
-  
-  <div id="menu">
-    <a href="home.html">Home</a>
-    <a href="register.html" target="frame">Register</a>
-    <a href="login.html" target="frame">Login</a>
-    <a href="catalogue.html" target="frame">Catalogue</a>
-    <a href="cart.html" target="frame">Cart</a>
-    <a href="about.html" target="frame">About</a>
-  </div>
-
-  <div id="container">
-    <div id="frame1">
-      <a href="CSE" target="frame">CSE</a>
-      <a href="ECE" target="frame">ECE</a>
-      <a href="EEE" target="frame">EEE</a>
-      <a href="IT" target="frame">IT</a>
+  <header>
+    <div class="header_logo">
+      <a class="logo_img" href="home.html"><img src="logo.jpg" alt="Logo"></a>
+      <a class="logo_name" href="home.html">
+        <h1>Online Book Store</h1>
+      </a>
     </div>
 
-    <div id="frame2">
-      <iframe src="about.html" frameborder="0" name="frame"></iframe>
-    </div>
+    <nav class="nav_bar">
+      <a href="home.html">Home</a>
+      <a href="register.html" target="frame">Register</a>
+      <a href="login.html" target="frame">Login</a>
+      <a href="catalogue.html" target="frame">Catalogue</a>
+      <a href="cart.html" target="frame">Cart</a>
+      <a href="about.html" target="frame">About</a>
+    </nav>
+  </header>
 
-  </div>
+  <main>
+    <section class="container">
+      <div id="frame1">
+        <a href="CSE" target="frame">CSE</a>
+        <a href="ECE" target="frame">ECE</a>
+        <a href="EEE" target="frame">EEE</a>
+        <a href="IT" target="frame">IT</a>
+      </div>
+
+      <div id="frame2">
+        <iframe src="about.html" frameborder="0" name="frame"></iframe>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Online Book Store. All rights reserved.</p>
+  </footer>
+
 </body>
 
 </html>

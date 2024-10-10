@@ -33,18 +33,8 @@
             <button type="submit">Login</button>
         </form>
         <p class="footer-text">Don't have an account? <a href="register.html">Register here</a>.</p>
-        <p class="footer-text"><a href="forgot_password.html">Forgot Password?</a></p>
+        <p class="footer-text"><a href="/webDev/account/password_reset.html">Forgot Password?</a></p>
     </div>
-
-    <script>
-        const togglePassword = document.getElementById('togglePassword');
-        const passwordInput = document.getElementById('password');
-
-        togglePassword.addEventListener('click', function () {
-            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-            passwordInput.setAttribute('type', type);
-            this.textContent = type === 'password' ? '👁️' : '👁️‍🗨️'; // Change icon based on visibility
-        });
-    </script>
+    
 </body>
 </html>
